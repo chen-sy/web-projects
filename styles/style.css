@@ -1,3 +1,40 @@
-p {
-    color: red
+
+a:hover{/*伪类*/
+    color: blue;
 }
+
+html {/*元素选择器、#ID选择、.类*/
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00539F;
+  }
+  body {
+    width: 600px;
+    margin: 0 auto;/*外边距,上下0，水平方向左右对称*/
+    background-color: #FF9500;/*内容和内边距之后的颜色*/
+    padding: 0 20px 20px 20px;/*内边距*/
+    border: 5px solid black;/*边框*/
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;  
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px 0;  
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+  }
+  
+  img {/*居中图像*/
+    display: block;
+    margin: 0 auto;
+  }
